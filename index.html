@@ -1,6 +1,140 @@
 <head>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <title>Robert Waltham</title>
+    <meta name="author" content="Robert Waltham">
 </head>
 <body>
-    <h1>Test</h1>
+
+
+<!-- NAVBAR
+================================================== -->
+<div class="navbar-wrapper header">
+    <div class="container">
+
+        <div class="navbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <h2><a class="navbar-brand scroll" href="#intro">Robert Waltham</a></h2>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav pull-right">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#software">Software</a></li>
+                        <li><a href="#contact">Links</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="intro">
+    <div class="intro-background">
+        <div class="container">
+            <div class="row">
+                <div class="carousel-caption-center">
+                    <img id="profile_image" src="./images/profile.png">
+                    <h1>My name is Robert</h1>
+                    <h2>I live in Victoria</h2>
+                    <p>I build software</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section id="about" class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>I like to build things</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 text-center overlay-text icons">
+                <div class="icon-wrapper">
+                    <img  class="icon" src="./images/code.png" />
+                </div>
+                <h3>Software</h3>
+                <p>I am a web application developer.</p>
+            </div>
+            <div class="col-sm-4 text-center overlay-text icons">
+                <div class="icon-wrapper">
+                    <img class="icon" src="./images/curry.png" />
+                </div>
+                <h3>Food</h3>
+                <p>I like to experiment and tinker with recipes.</p>
+            </div>
+            <div class="col-sm-4 text-center overlay-text icons">
+                <div class="icon-wrapper">
+                    <img class="icon" src="./images/cat.png" />
+                </div>
+                <h3>Cats</h3>
+                <p>I like Cats.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="software" class="bottom-bg">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 overlay-text">
+                <div class="vertical-align">
+                    <h2>I am a web application developer</h2>
+                    <p>I have been a developer for 6 years. I build real time high performance web applications, and iPhone apps.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Footer
+================================================== -->
+<footer id="contact" class="footer">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-sm-3 col-md-3 col-md-offset-1">
+                    <h3>Personal</h3>
+                    <ul class="list-unstyled">
+                        <li><a target="_blank" href="https://plus.google.com/115846291471798060319">Google+</a></li>
+                        <li><a href="mailto:rob@blockoftext.com">Email</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3 col-md-offset-1">
+                    <h3>Professional</h3>
+                    <ul class="list-unstyled">
+                        <li><a target="_blank" href="https://github.com/leveltenpaladin/">Github</a></li>
+                        <li><a target="_blank" href="http://www.linkedin.com/pub/robert-waltham/5a/52/212">Linkedin</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3 col-md-offset-1">
+                    <h3>Stuff</h3>
+                    <ul class="list-unstyled">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
 </body>
