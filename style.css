@@ -13,59 +13,42 @@ body {
     height: 50px;
 }
 
-.header h2 a {
-    color: white;
-    font-size: inherit;
+#intro h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 60px;
+    line-height: 1.3;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.5);
 }
 
-@media (max-width: 1280px) {
-    #intro {
-        width: 1280px;
-        height: 497px;
-        opacity: 1;
-        display: block;
-    }
-    .intro-background {
-        background-image: url(./images/ferry.png);
-        width: 1280px;
-        height: 497px;
-    }
-    #profile_image{
-        width:200px;
-        height:200px;
-        border-radius: 100px 100px 100px 100px;
-        -moz-border-radius: 100px 100px 100px 100px;
-        -webkit-border-radius: 100px 100px 100px 100px;
-        border: 0px solid #000000;
-    }
-    #software{
-        height: 300px;
-    }
-
+#intro h3 {
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.5);
 }
 
-@media (min-width: 1281px) {
-    #intro {
-        width: 1440px;
-        height: 538px;
-        opacity: 1;
-        display: block;
-    }
-    .intro-background {
-        background-image: url(./images/ferry.png);
-        width: 1440px;
-        height: 538px;
-    }
-
-    #profile_image{
-        width:300px;
-        height:300px;
-        border-radius: 150px 150px 150px 150px;
-        -moz-border-radius: 150px 150px 150px 150px;
-        -webkit-border-radius: 150px 150px 150px 150px;
-        border: 0px solid #000000;
-    }
+.intro-background {
+    background-image: url(./images/clouds2.jpg);
 }
+
+#intro {
+    width: 1280px;
+    height: 550px;
+    opacity: 1;
+    display: block;
+}
+.intro-background {
+    width: 1280px;
+    height: 550px;
+}
+#profile_image{
+    width:200px;
+    height:200px;
+    border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border: 0 solid #000000;
+}
+
 
 .nav a{
     color:white;
@@ -105,14 +88,24 @@ footer.footer ul li {
     margin-bottom: 0.75em;
 }
 
-.text-center{
-    text-align: center;
+
+#software{
+    height: 300px;
 }
 
-.bottom-bg{
+#software h2, #software p{
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.5);
+}
+
+#software.bottom-bg{
     background: url('./images/baker.jpg') center center no-repeat;
     background-size: cover;
 }
+
+#software .text-pad{
+    padding: 80px 0 0 0;
+}
+
 
 #intro .carousel-caption-center, #intro-video .carousel-caption-center {
     position: absolute;
@@ -129,8 +122,13 @@ footer.footer ul li {
 }
 
 #about{
-    background-color: #DFDFDF;
+    background-color: #FFFFFF;
 
+}
+#about .text-center{
+    text-align: center;
+    font-weight: 100;
+    padding: 25px 0 0 0;
 }
 
 section h2 {
