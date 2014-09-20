@@ -1,0 +1,19 @@
+{
+  "name": "personal-site",
+  "version": "0.0.0",
+  "homepage": "https://github.com/blockoftext/rob-personal-site",
+  "authors": [
+    "Robert Waltham <rob@blockoftext.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
